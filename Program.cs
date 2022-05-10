@@ -19,7 +19,7 @@ namespace ConsoleApp7
 
             DirectoryInfo[] dr = di.GetDirectories();
 
-            foreach (DirectoryInfo df in dr)
+            foreach (DirectoryInfo df in dr)g
             {
                 size += DirSize(df);
             }
